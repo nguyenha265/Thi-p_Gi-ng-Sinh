@@ -2,6 +2,7 @@
 body {
       margin: 0;
 	  padding: 0;
+      background-color:#333;
     }
 
     #container {
@@ -67,19 +68,19 @@ body {
     }
 
     .three {
-		background-image: url("http://saimete.edu.vn/wp-content/uploads/2019/10/tuyen-tap-loi-chuc-giang-sinh-bang-tieng-anh-hay-nhat-2015-2016-1.jpg");
+		background-image: url("https://dongnaiart.edu.vn/wp-content/uploads/2022/01/merry-christmas-5-a5b97313833f6fbaba4737fd33ada950.jpg");
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .four {
-		background-image: url("https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1280/https://tranhtrangtri360.com/wp-content/uploads/2019/03/up1-tranh-phong-canh-giang-sinh.jpg");
+		background-image: url("https://mtrend.vn/wp-content/uploads/2015/11/hinh-nen-giang-sinh-dep-nhat-1.jpg");
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .five {
-		background-image: url("https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-1/80271436_2528964394092383_1823928119321427968_n.jpg?_nc_cat=111&_nc_ohc=fwHu0qMnWPsAQntyelk5teaZLZg487f_EDn8QyOmvji8J9mWtiEnNKbSQ&_nc_ht=scontent.fhan3-1.fna&oh=753f68a56c254b16ef0c2b3e0121efe7&oe=5E76D15D");
+		background-image: url("https://birdfest.org/wp-content/uploads/2017/10/hinh-anh-giang-sinh.jpg");
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
@@ -103,19 +104,19 @@ body {
     }
 
     .nine {
-		background-image: url("http://saimete.edu.vn/wp-content/uploads/2019/10/tuyen-tap-loi-chuc-giang-sinh-bang-tieng-anh-hay-nhat-2015-2016-1.jpg");
+		background-image: url("https://dongnaiart.edu.vn/wp-content/uploads/2022/01/merry-christmas-5-a5b97313833f6fbaba4737fd33ada950.jpg");
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .ten {
-		background-image: url("https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1280/https://tranhtrangtri360.com/wp-content/uploads/2019/03/up1-tranh-phong-canh-giang-sinh.jpg");
+		background-image: url("https://mtrend.vn/wp-content/uploads/2015/11/hinh-nen-giang-sinh-dep-nhat-1.jpg");
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
 
     .eleven {
-		background-image: url("https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-1/80271436_2528964394092383_1823928119321427968_n.jpg?_nc_cat=111&_nc_ohc=fwHu0qMnWPsAQntyelk5teaZLZg487f_EDn8QyOmvji8J9mWtiEnNKbSQ&_nc_ht=scontent.fhan3-1.fna&oh=753f68a56c254b16ef0c2b3e0121efe7&oe=5E76D15D");
+		background-image: url("https://birdfest.org/wp-content/uploads/2017/10/hinh-anh-giang-sinh.jpg");
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
     }
@@ -311,6 +312,10 @@ body {
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
     margin-top: 8%;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 .classname:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
@@ -349,9 +354,8 @@ body {
     50% { color: #0aeeff;  }
     100% { color: #f809ec;  }
 }
-.test {
+.header {
     text-align: center;
-    background:#3d3d3d;
     font-size:60px;
     font-weight:bold;
     -webkit-animation: my 700ms infinite;
@@ -359,3 +363,37 @@ body {
     -o-animation: my 700ms infinite;
     animation: my 700ms infinite;
 }
+#snow{
+	background: none;
+	font-family: Androgyne;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
